@@ -1,0 +1,12 @@
+package com.aurionpro.structural.composit.model;
+
+public class videoGames extends Product {
+	public videoGames(String title,Double price) {
+		super(title,price);
+	}
+	@Override
+	public Double calculatePrice() {
+		// TODO Auto-generated method stub
+		return getPrice();
+	}
+}

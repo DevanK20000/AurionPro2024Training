@@ -1,0 +1,16 @@
+package com.aurionpro.creational.factory.model;
+
+public class AccountFactory {
+	public static IAccount accountMaker(AccountType accountType, Integer balance) {
+		IAccount account = null;
+		if (accountType.toString().equals("Saving")) {
+			account = new SavingsAccount(balance);
+		}
+		if (accountType.toString().equals("Current")) {
+			account = new CurrentAccount(balance);		
+		}
+		return account;
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.aurionpro.creational.AbstractFactory.test;
+
+import com.aurionpro.creational.AbstractFactory.model.ICar;
+import com.aurionpro.creational.AbstractFactory.model.ICarFactory;
+import com.aurionpro.creational.AbstractFactory.model.MarutiFactory;
+
+public class CarTest {
+	public static void main(String[] args) {
+		ICar maruti = MarutiFactory;
+		maruti.start();
+		maruti.stop();
+		
+		ICar tata = CarFactory.makeCar(CarName.Tata);
+		tata.start();
+		tata.stop();
+		
+		ICar mahindra = CarFactory.makeCar(CarName.Mahindra);
+		mahindra.start();
+		mahindra.stop();
+	}
+}

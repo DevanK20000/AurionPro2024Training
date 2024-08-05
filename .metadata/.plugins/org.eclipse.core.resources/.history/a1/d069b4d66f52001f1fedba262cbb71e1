@@ -1,0 +1,41 @@
+package com.aurionpro.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class GameRulesTest {
+	IGameBoard gameBoardWin;
+	IGameBoard gameBoardDraw;
+	IGameRules gameRules;
+	
+	@BeforeEach
+	void init() {
+		gameBoardWin = new GameBoard();
+		gameBoardDraw = new GameBoard();	
+		gameRules = new GameRules();
+		
+		gameBoardDraw.setSize(3);
+		char[][] board = {{'X', 'X', 'O'},
+						  {'O', 'O', 'X'},
+						  {'X', 'O', 'X'}};
+		gameBoardDraw.setBoard(board);
+	}
+
+	@Test
+	void testCheckWin() {
+		// row
+		gameBoardWin.setSize(3);
+		char[][] board = {{'X', 'O', 'O'},
+						  {'O', 'X', 'O'},
+						  {'O', 'O', 'X'}};
+		gameBoardWin.setBoard(board);
+	}	
+
+	@Test
+	void testCheckDraw() {
+		fail("Not yet implemented");
+	}
+
+}

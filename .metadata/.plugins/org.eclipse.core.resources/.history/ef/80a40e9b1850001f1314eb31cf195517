@@ -1,0 +1,13 @@
+package com.aurionpro.structural.composit.test;
+
+import com.aurionpro.structural.composit.model.Book;
+import com.aurionpro.structural.composit.model.IBox;
+import com.aurionpro.structural.composit.model.Product;
+import com.aurionpro.structural.composit.model.VideoGames;
+
+public class BoxTest {
+	public static void main(String[] args) {
+		Product videoGame1 = new VideoGames("COD", 70.0);
+		Product book1 = new Book("GOT", "100");
+	}
+}

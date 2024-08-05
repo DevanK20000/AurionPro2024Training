@@ -1,0 +1,6 @@
+package com.aurionpro.creational.factory.test;
+
+public interface IAccount {
+	void credit();
+	void debit();
+}

@@ -1,0 +1,25 @@
+package com.aurionpro.creational.factory.model;
+
+public class CurrentAccount implements IAccount {
+	private Integer balance;
+	
+	
+	public CurrentAccount(Integer balance) {
+		super();
+		this.balance = balance;
+	}
+
+	@Override
+	public void credit(Integer amount) {
+		// TODO Auto-generated method stub
+		this.balance += amount;
+		
+	}
+
+	@Override
+	public void debit(Integer amount) {
+		// TODO Auto-generated method stub
+		this.balance-= amount;
+	}
+
+}

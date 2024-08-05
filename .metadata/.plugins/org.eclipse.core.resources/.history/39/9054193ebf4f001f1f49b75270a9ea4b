@@ -1,0 +1,13 @@
+package com.aurionpro.prototype.model;
+
+class CarRegistry {
+    private Map<String, CarPrototype> prototypes = new HashMap<>();
+
+    public void addPrototype(String key, CarPrototype carPrototype) {
+        prototypes.put(key, carPrototype);
+    }
+
+    public CarPrototype getPrototype(String key) {
+        return prototypes.get(key);
+    }
+}

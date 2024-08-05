@@ -1,0 +1,11 @@
+package com.aurionpro.dip.model;
+
+public class DBLogger implements ILogger{
+	@Override
+	public void Log(String err) {
+		// TODO Auto-generated method stub
+		System.err.println("Logged database "+err);
+		
+	}
+
+}

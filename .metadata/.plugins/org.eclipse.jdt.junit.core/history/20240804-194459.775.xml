@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="IGameBoardTest" project="19-tictactoeFacade-app" tests="2" started="2" failures="0" errors="1" ignored="0">
+  <testsuite name="com.aurionpro.model.IGameBoardTest" time="0.023" displayname="IGameBoardTest" uniqueid="[engine:junit-jupiter]/[class:com.aurionpro.model.IGameBoardTest]">
+    <testcase name="testMakeMove" classname="com.aurionpro.model.IGameBoardTest" time="0.022" displayname="testMakeMove()" uniqueid="[engine:junit-jupiter]/[class:com.aurionpro.model.IGameBoardTest]/[method:testMakeMove()]">
+      <error>java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4&#13;
+	at com.aurionpro.model.GameBoard.makeMove(GameBoard.java:22)&#13;
+	at com.aurionpro.model.IGameBoardTest.testMakeMove(IGameBoardTest.java:37)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testSetSize" classname="com.aurionpro.model.IGameBoardTest" time="0.001" displayname="testSetSize()" uniqueid="[engine:junit-jupiter]/[class:com.aurionpro.model.IGameBoardTest]/[method:testSetSize()]"/>
+  </testsuite>
+</testrun>

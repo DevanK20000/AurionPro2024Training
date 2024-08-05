@@ -1,0 +1,14 @@
+package com.aurionpro.structural.fascade.model;
+
+public class MovieFacde {
+	public void watchMovie() {
+		DvdPlayer dvdPlayer = new DvdPlayer();
+		dvdPlayer.on();
+		dvdPlayer.setMovie("DP");
+		
+		SoundSystem soundSystem = new SoundSystem();
+		soundSystem.on();
+		soundSystem.setVolume(7);
+		
+	}
+}

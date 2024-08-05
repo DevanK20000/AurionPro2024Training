@@ -1,0 +1,10 @@
+package com.aurionpro.creational.factory.model;
+
+public class AccountFactory {
+	public static IAccount accountMaker(AccountType accountType) {
+		IAccount account = null;
+		
+		
+	}
+
+}

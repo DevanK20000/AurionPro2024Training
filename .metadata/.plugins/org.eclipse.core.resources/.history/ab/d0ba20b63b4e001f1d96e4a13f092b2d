@@ -1,0 +1,11 @@
+package com.aurionpro.isp.voilation.model;
+
+import com.aurionpro.isp.model.ILunchInterval;
+import com.aurionpro.isp.model.IWorkable;
+
+public interface IWorker extends IWorkable,ILunchInterval{
+	void startWork();
+	void endWork();
+	void eat();
+	void drink();
+}

@@ -1,0 +1,12 @@
+package com.aurionpro.dip.voilation.model;
+
+public class TaxCalculator {
+	private Integer amount;
+	private Integer rate;
+	public TaxCalculator(Integer amount, Integer rate) {
+		super();
+		this.amount = amount;
+		this.rate = rate;
+	}
+	
+}

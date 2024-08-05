@@ -1,0 +1,9 @@
+package com.aurionpro.creational.factory.model;
+
+public enum CarName {
+	Maruthi, Tata, Mahindra;
+	
+	public String toString() {
+		
+	}
+}

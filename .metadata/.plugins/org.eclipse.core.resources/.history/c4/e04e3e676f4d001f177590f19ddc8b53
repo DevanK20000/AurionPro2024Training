@@ -1,0 +1,26 @@
+package com.aurionpro.test;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+
+import com.aurionpro.model.Account;
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		List<Account> accounts = Arrays.asList(
+				new Account(12, "devan", 700.0),
+				new Account(32, "Suresh", 900.1),
+				new Account(31, "Mark", 300.12),
+				new Account(12, "Jayesh", 500.1),
+				new Account(77, "David", 1000.10));
+		
+		//account with max balance
+		Optional<Account> maxBalanceAccount = accounts.stream().max((Account account, Account account2) -> account.getBalance().compareTo(account2.getBalance()));
+		if(maxBalanceAccount.isPresent())
+			System.out.println("Max balance Account\n"+maxBalanceAccount.get());
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.aurionpro.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class GameRulesTest {
+	IGameBoard gameBoardWin;
+	IGameBoard gameBoardDraw;
+	IGameRules gameRules;
+	
+	@BeforeEach
+	void init() {
+		gameBoardWin = new GameBoard();
+		gameBoardDraw = new GameBoard();
+		
+	}
+
+	@Test
+	void testCheckWin() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testCheckDraw() {
+		fail("Not yet implemented");
+	}
+
+}

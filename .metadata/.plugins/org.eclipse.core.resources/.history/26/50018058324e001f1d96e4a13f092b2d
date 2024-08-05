@@ -1,0 +1,22 @@
+package com.aurionpro.ocp.voilation.test;
+
+import java.util.Scanner;
+
+public class FDTest {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter account number: ");
+		Integer accountNumber = scanner.nextInt();
+		
+		System.out.print("Enter name: ");
+		String name = scanner.nextLine();
+		
+		System.out.print("Enter principle ammount: ");
+		Double principle =  scanner.nextDouble();
+		
+		System.out.print("Enter duration: ");
+		Integer duration = scanner.nextInt();
+		
+		System.out.print("Enter festival type");
+	}
+}

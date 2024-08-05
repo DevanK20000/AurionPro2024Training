@@ -1,0 +1,26 @@
+package com.aurionpro.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class AreaCalaculatorTest {
+	
+	
+
+	@Test
+	void testCalculatorAreaOfCircle() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testCalculatorAreaOfReactangle() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testCalculatorAreaOfTriangle() {
+		fail("Not yet implemented");
+	}
+
+}

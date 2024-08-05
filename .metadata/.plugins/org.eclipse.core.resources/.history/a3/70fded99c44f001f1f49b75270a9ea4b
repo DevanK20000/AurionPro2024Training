@@ -1,0 +1,11 @@
+package com.aurionpro.structura.model;
+
+public class ItialianMenu implements IMenu {
+
+	@Override
+	public void displayMenu() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

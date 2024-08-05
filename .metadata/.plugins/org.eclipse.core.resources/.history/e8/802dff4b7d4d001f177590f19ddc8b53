@@ -1,0 +1,21 @@
+package com.aurionpro.srp.voilation.model;
+
+public class InvoicePrinter {
+	private Invoice invoice;
+	private TaxCalculator taxCalculator;
+	
+	
+	public InvoicePrinter(Invoice invoice, TaxCalculator taxCalculator) {
+		super();
+		this.invoice = invoice;
+		this.taxCalculator = taxCalculator;
+	}
+
+
+	public void printInvoice() {
+		System.out.println("Id: "+id);
+		System.out.println("Description: "+description);
+		System.out.println("Amount: "+amount);
+		System.out.println("Tax percentage: "+tax);
+	}
+}

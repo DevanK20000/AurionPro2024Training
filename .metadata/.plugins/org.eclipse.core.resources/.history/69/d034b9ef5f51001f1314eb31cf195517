@@ -1,0 +1,35 @@
+package com.aurionpro.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class OperationsTest2 {
+
+	@Test
+	void testAddition() {
+		Operations operations = new Operations();
+
+		assertEquals(10, operations.addition(5, 10), "This function must do addition");
+
+	}
+
+	@Test
+	void testSubstraction() {
+		Operations operations = new Operations();
+
+		assertEquals(-5, operations.substraction(5, 10), "This function must do substraction");
+
+	}
+
+	@Test
+	void testMultiplication() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testDivision() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.aurionpro.structural.adapter.model;
+
+import java.util.List;
+
+public class ShoppingCart {
+	List<IItem> cartItem;
+
+	public ShoppingCart(List<IItem> cartItem) {
+		super();
+		this.cartItem = cartItem;
+	}
+	
+}

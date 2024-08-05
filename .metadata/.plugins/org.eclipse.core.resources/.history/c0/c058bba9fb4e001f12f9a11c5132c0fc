@@ -1,0 +1,17 @@
+package com.aurionpro.creational.singleton.model;
+
+public class Login {
+	private static Login login;
+
+	private Login() {
+		super();
+	}
+	
+	public static Login getLogin() {
+		
+	}
+	
+	
+	
+
+}

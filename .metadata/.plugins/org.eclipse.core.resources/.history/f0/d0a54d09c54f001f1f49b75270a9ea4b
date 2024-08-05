@@ -1,0 +1,5 @@
+package com.aurionpro.structura.model;
+
+public interface IHotel {
+	IMenu getMenu();
+}

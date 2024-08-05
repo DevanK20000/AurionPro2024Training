@@ -1,0 +1,12 @@
+package com.aurionpro.model;
+
+public class Region {
+	private Integer id;
+	private String name;
+	public Region(Integer id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+	
+}

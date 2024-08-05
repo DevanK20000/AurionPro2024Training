@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void rollDie(int no_of_turns, Scanner scanner, Random random, int turn_score, int total_score)&apos; from &apos;com.apro.test.Pig.main(...)&apos; to &apos;com.apro.test.Pig&apos;&#x0D;&#x0A;- Original project: &apos;assignment_170724&apos;&#x0D;&#x0A;- Method name: &apos;rollDie&apos;&#x0D;&#x0A;- Destination type: &apos;com.apro.test.Pig&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;rollDie&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.apro.test{Pig.java" name="rollDie" replace="false" selection="391 717" stamp="1721276972749" version="1.0" visibility="2"/>
+</session>

@@ -1,0 +1,9 @@
+package com.aurionpro.srp.voilation.model;
+
+public class taxCalculator {
+
+	public taxCalculator() {
+		super();
+	}
+
+}

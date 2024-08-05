@@ -1,0 +1,18 @@
+package com.aurionpro.creational.factory.model;
+
+public class CarFactory {
+	public static ICar makeCar(String name) {
+		ICar car =null;
+		if(name.equals("Maruthi"))
+			car = new Maruti();
+		
+		if(name.equals("Tata"))
+			car = new Tata();
+		
+		if(name.equals("Mahindra"))
+			car = new Mahindra();
+		
+		return car;
+	}
+
+}

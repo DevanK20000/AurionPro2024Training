@@ -1,0 +1,7 @@
+package com.aurionpro.structural.adapter.model;
+
+public class Hat {
+	private String shortName;
+	private String longName;
+	private String 
+}

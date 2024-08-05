@@ -1,0 +1,8 @@
+package com.aurionpro.model;
+
+public class Guitar {
+	private String serialNumber, builder;
+	public static void main(String[] args) {
+		System.out.println("Hello captain");
+	}
+}

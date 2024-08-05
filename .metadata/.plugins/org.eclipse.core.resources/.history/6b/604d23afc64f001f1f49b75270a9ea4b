@@ -1,0 +1,11 @@
+package com.aurionpro.structural.fascade.model;
+
+public class DvdPlayer implements IMovieStarter {
+
+	@Override
+	public void on() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

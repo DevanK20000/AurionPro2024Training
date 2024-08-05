@@ -1,0 +1,11 @@
+package com.aurionpro.behavioural.state.model;
+
+public class Packet {
+	private IPacketTest packetTest;
+
+	public Packet(IPacketTest packetTest) {
+		super();
+		this.packetTest = packetTest;
+	}
+	
+}

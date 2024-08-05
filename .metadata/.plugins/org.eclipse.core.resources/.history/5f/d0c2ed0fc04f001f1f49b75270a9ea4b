@@ -1,0 +1,25 @@
+package com.aurionpro.prototype.test;
+
+import com.aurionpro.prototype.model.Car;
+import com.aurionpro.prototype.model.CarPrototype;
+
+public class CarTest {
+
+	public static void main(String[] args) {
+		 // Create prototype cars
+        CarPrototype hondaPrototype = new Car("Honda", "Civic", 2022);
+        CarPrototype toyotaPrototype = new Car("Toyota", "Camry", 2021);
+
+        // Register prototypes
+        CarRegistry registry = new CarRegistry();
+        registry.addPrototype("Honda", hondaPrototype);
+        registry.addPrototype("Toyota", toyotaPrototype);
+
+        // Clone and display cars
+        CarPrototype clonedHonda = registry.getPrototype("Honda").clone();
+        CarPrototype clonedToyota = registry.getPrototype("Toyota").clone();
+
+        clonedHonda.displayInfo();
+        clonedToyota.displayInfo();
+    }
+}

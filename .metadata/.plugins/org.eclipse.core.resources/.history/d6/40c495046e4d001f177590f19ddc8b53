@@ -1,0 +1,9 @@
+package com.aurionpro.test;
+
+public class Account {
+	private Integer accno;
+	private String name;
+	private Double balance;
+	
+	
+}

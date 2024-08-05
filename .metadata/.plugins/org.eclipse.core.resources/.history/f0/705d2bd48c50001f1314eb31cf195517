@@ -1,0 +1,45 @@
+package com.aurionpro.behavioural.observer.model;
+
+import java.util.List;
+
+public class Account {
+	private Integer accountNumber;
+	private String name;
+	private Double balance;
+	private List<INotifier> notifiers;
+	public Account(Integer accountNumber, String name, Double balance, List<INotifier> notifiers) {
+		super();
+		this.accountNumber = accountNumber;
+		this.name = name;
+		this.balance = balance;
+		this.notifiers = notifiers;
+	}
+	public Integer getAccountNumber() {
+		return accountNumber;
+	}
+	public void setAccountNumber(Integer accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Double getBalance() {
+		return balance;
+	}
+	public void setBalance(Double balance) {
+		this.balance = balance;
+	}
+	public List<INotifier> getNotifiers() {
+		return notifiers;
+	}
+	public void setNotifiers(List<INotifier> notifiers) {
+		this.notifiers = notifiers;
+	}
+	
+	public void debit() {
+		
+	}
+}

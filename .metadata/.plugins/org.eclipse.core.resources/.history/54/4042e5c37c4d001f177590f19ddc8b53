@@ -1,0 +1,11 @@
+package com.aurionpro.srp.voilation.model;
+
+public class taxCalcuato {
+	public String id;
+	public String description;
+	public Double amount;
+	public Double tax;
+
+	public taxCalcuato() {
+	}
+}

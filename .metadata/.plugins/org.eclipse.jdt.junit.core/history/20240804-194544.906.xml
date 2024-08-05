@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="IGameBoardTest" project="19-tictactoeFacade-app" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.aurionpro.model.IGameBoardTest" time="0.02" displayname="IGameBoardTest" uniqueid="[engine:junit-jupiter]/[class:com.aurionpro.model.IGameBoardTest]">
+    <testcase name="testMakeMove" classname="com.aurionpro.model.IGameBoardTest" time="0.019" displayname="testMakeMove()" uniqueid="[engine:junit-jupiter]/[class:com.aurionpro.model.IGameBoardTest]/[method:testMakeMove()]"/>
+    <testcase name="testSetSize" classname="com.aurionpro.model.IGameBoardTest" time="0.0" displayname="testSetSize()" uniqueid="[engine:junit-jupiter]/[class:com.aurionpro.model.IGameBoardTest]/[method:testSetSize()]"/>
+  </testsuite>
+</testrun>

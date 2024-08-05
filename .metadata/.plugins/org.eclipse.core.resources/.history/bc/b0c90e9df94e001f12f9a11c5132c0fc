@@ -1,0 +1,6 @@
+package com.aurionpro.creational.model;
+
+public class Login {
+	
+
+}

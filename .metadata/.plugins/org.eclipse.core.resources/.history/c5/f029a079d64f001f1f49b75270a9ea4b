@@ -1,0 +1,11 @@
+package com.aurionpro.structural.decorator.model;
+
+public abstract class CarServiceDecorator implements ICarService {
+
+	@Override
+	public Double getCost() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

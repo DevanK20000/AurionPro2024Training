@@ -1,0 +1,11 @@
+package com.aurionpro.isp.voilation.model;
+
+public class Worker {
+	public static void main(String[] args) {
+		IWorker labour = new Labour();
+		labour.startWork();
+		labour.endWork();
+		labour.eat();
+		labour.drink();
+	}
+}

@@ -1,0 +1,7 @@
+package com.aurionpro.creational.AbstractFactory.model;
+
+public interface IAccount {
+	private Long accountNumber;
+	void debit(Double amount);
+	void credit(Double amount);
+}

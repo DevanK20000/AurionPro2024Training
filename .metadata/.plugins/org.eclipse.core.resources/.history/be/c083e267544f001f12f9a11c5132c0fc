@@ -1,0 +1,51 @@
+package com.aurionpro.model;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class Inventory {
+	List<Guitar> guitars;
+
+	public Inventory() {
+		guitars = new LinkedList<>();
+	}
+
+	public void addGuitar(String serialNumber, double price, GuitarSpec spec) {
+		guitars.add(new Guitar(serialNumber, price, spec));
+	}
+
+	public Guitar getGuitar(String serialNumber) {
+		for (Guitar guitar : guitars) {
+			if (serialNumber.equals(guitar.getSerialNumber())) {
+				return guitar;
+			}
+		} // close foreach loop
+
+//        for (Iterator i = guitars.iterator();
+//        i.hasNext();){
+//            Guitar guitar = (Guitar) i.next();
+//            if (guitar.getSerialNumber().equals(serialNumber))
+//                return guitar;
+//        } // close for loop
+		return null;
+	}
+
+	public List<Guitar> search(GuitarSpec searchGuitarSpec) {
+		List<Guitar> matchGuitars = new LinkedList<>();
+		for (Guitar guitar : guitars) {
+
+			GuitarSpec guitarSpec = guitar.getSpec();
+
+			if (guitarSpec.matches(searchGuitarSpec)) {
+				matchGuitars.add(guitar);
+				// test sout
+				System.out.println("test GuitarSpec matches method start");
+				System.out.println("found a guitar serialNumber:" + guitar.getSerialNumber());
+				System.out.println("test GuitarSpec matches method end");
+			}
+		} // close foreach loop
+		return matchGuitars;
+		// Interrupt search method and return matchGuitars(maybe empty List)
+
+	} // close search method
+}

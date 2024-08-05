@@ -1,0 +1,7 @@
+package com.aurionpro.behavioural.state.model;
+
+public interface IPacketTest {
+	void next( );
+	void previous( );
+	void currnet( );
+}

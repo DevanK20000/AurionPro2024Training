@@ -1,0 +1,5 @@
+package com.aurionpro.isp.voilation.model;
+
+public class Worker {
+
+}

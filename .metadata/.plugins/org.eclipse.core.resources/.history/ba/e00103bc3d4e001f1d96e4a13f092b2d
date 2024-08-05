@@ -1,0 +1,11 @@
+package com.aurionpro.dip.voilation.model;
+
+public class DBLogger {
+	public class Log {
+
+	}
+
+	public static void Log(String err) {
+		System.err.println("Logged database "+err);
+	}
+}

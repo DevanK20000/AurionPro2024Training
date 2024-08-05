@@ -1,0 +1,6 @@
+package com.aurionpro.model;
+
+public class Region {
+	private Integer id;
+	private String name;
+}

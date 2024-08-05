@@ -1,0 +1,33 @@
+package com.aurionpro.creational.AbstractFactory.model;
+
+public class CurrentAccount implements IAccount {
+	private Long accountNumber;
+	private String name;
+	private Double balance;
+	private double OVER_DRAFT_LIMIT;
+	private double overDraftLimitAvailableLimit;
+	
+	
+
+	public CurrentAccount(Long accountNumber, String name, Double balance, double oVER_DRAFT_LIMIT) {
+		super();
+		this.accountNumber = accountNumber;
+		this.name = name;
+		this.balance = balance;
+		OVER_DRAFT_LIMIT = oVER_DRAFT_LIMIT;
+		this.overDraftLimitAvailableLimit = oVER_DRAFT_LIMIT;
+	}
+
+	@Override
+	public void debit(Double amount) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void credit(Double amount) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

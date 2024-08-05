@@ -1,0 +1,7 @@
+package com.aurionpro.structural.fascade.model;
+
+public class MovieFacde {
+	public void watchMovie() {
+		
+	}
+}

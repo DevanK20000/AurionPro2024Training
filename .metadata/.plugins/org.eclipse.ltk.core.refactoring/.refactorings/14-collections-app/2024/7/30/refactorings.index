@@ -1,0 +1,7 @@
+1721631120861	Extract method 'createCarList'
+1721631146888	Extract method 'readCars'
+1721663197230	Delete elements
+1721666329959	Extract method 'accountsDecendingBalance'
+1721666431566	Extract method 'sortAccounts'
+1721751657807	Extract method 'bookSortATP'
+1721751763818	Extract method 'bookSortPPA'

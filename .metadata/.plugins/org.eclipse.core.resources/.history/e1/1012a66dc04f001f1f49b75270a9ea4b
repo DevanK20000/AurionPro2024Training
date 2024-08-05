@@ -1,0 +1,16 @@
+package com.aurionpro.prototype.test;
+
+import com.aurionpro.prototype.model.Car;
+import com.aurionpro.prototype.model.CarPrototype;
+import com.aurionpro.prototype.model.CarRegistry;
+
+public class CarTest {
+
+	public static void main(String[] args) {
+		CarPrototype hondaPrototype = new Car("Honda", "Civic", 2022);
+
+        // Clone and display cars
+        CarPrototype clonedHonda = hondaPrototype.clone();
+        clonedHonda.displayInfo();
+    }
+}

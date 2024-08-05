@@ -1,0 +1,44 @@
+package com.aurionpro.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class OperationsTest2 {
+
+	@Test
+	void testAddition() {
+		Operations operations = new Operations();
+
+		assertEquals(10, operations.addition(5, 10), "This function must do addition");
+
+	}
+
+	@Test
+	void testSubstraction() {
+		Operations operations = new Operations();
+
+		assertEquals(-5, operations.substraction(5, 10), "This function must do substraction");
+
+	}
+
+	@Test
+	void testMultiplication() {
+		Operations operations = new Operations();
+
+		assertEquals(50, operations.multiplication(5, 10), "This function must do multipliction");
+
+	}
+
+	@Test
+	void testDivision() {
+Operations operations = new Operations();
+		
+		assertEquals(10, operations.addition(5, 10),"This function must do addition");
+		assertEquals(-5, operations.substraction(5, 10),"This function must do substraction");
+		assertEquals(50, operations.multiplication(5, 10),"This function must do multipliction");
+		assertEquals(0.5, operations.division(5, 10),"This function must do division");
+		
+	}
+
+}

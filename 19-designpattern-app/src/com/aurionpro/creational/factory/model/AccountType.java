@@ -1,0 +1,16 @@
+package com.aurionpro.creational.factory.model;
+
+public enum AccountType {
+	SAVING, CURRENT;
+	
+	public String toString() {
+		switch (this) {
+		case SAVING:
+			return "Saving";
+		case CURRENT:
+			return "Current";
+		default:
+			return "Default";
+		}
+	}
+}

@@ -1,0 +1,7 @@
+package com.aurionpro.structural.composit.test;
+
+public class BoxTest {
+	public static void main(String[] args) {
+		
+	}
+}

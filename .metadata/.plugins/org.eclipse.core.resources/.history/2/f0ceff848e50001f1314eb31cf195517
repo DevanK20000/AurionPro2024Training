@@ -1,0 +1,11 @@
+package com.aurionpro.behavioural.observer.model;
+
+public class WaNotifier implements INotifier {
+
+	@Override
+	public void giveNotification(Account account) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

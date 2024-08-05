@@ -1,0 +1,14 @@
+package com.aurionpro.behavioural.observer.test;
+
+import java.util.Scanner;
+
+public class AccountTest {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Account number:");
+		Integer accountNumber = scanner.nextInt();
+		System.out.print("Account name:");
+		String name = scanner.nextLine();
+	}
+
+}

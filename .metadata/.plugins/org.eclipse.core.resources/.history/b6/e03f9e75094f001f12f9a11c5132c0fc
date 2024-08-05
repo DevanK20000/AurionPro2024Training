@@ -1,0 +1,9 @@
+package com.aurionpro.creational.AbstractFactory.model;
+
+public class SavingAccount {
+	private Long accountNumber;
+	private String name;
+	private Double balance;
+	private Double minBalance;
+	
+}

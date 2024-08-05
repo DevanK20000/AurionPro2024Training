@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="IGameBoardTest" project="19-tictactoeFacade-app" tests="4" started="4" failures="3" errors="0" ignored="0">
+  <testsuite name="com.aurionpro.model.IGameBoardTest" time="0.031" displayname="IGameBoardTest" uniqueid="[engine:junit-jupiter]/[class:com.aurionpro.model.IGameBoardTest]">
+    <testcase name="testGetBoard" classname="com.aurionpro.model.IGameBoardTest" time="0.025" displayname="testGetBoard()" uniqueid="[engine:junit-jupiter]/[class:com.aurionpro.model.IGameBoardTest]/[method:testGetBoard()]">
+      <failure>org.opentest4j.AssertionFailedError: Not yet implemented&#13;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)&#13;
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)&#13;
+	at com.aurionpro.model.IGameBoardTest.testGetBoard(IGameBoardTest.java:31)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="testPrintBoard" classname="com.aurionpro.model.IGameBoardTest" time="0.002" displayname="testPrintBoard()" uniqueid="[engine:junit-jupiter]/[class:com.aurionpro.model.IGameBoardTest]/[method:testPrintBoard()]">
+      <failure>org.opentest4j.AssertionFailedError: Not yet implemented&#13;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)&#13;
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)&#13;
+	at com.aurionpro.model.IGameBoardTest.testPrintBoard(IGameBoardTest.java:36)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="testMakeMove" classname="com.aurionpro.model.IGameBoardTest" time="0.002" displayname="testMakeMove()" uniqueid="[engine:junit-jupiter]/[class:com.aurionpro.model.IGameBoardTest]/[method:testMakeMove()]">
+      <failure>org.opentest4j.AssertionFailedError: Not yet implemented&#13;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)&#13;
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)&#13;
+	at com.aurionpro.model.IGameBoardTest.testMakeMove(IGameBoardTest.java:26)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="testSetSize" classname="com.aurionpro.model.IGameBoardTest" time="0.001" displayname="testSetSize()" uniqueid="[engine:junit-jupiter]/[class:com.aurionpro.model.IGameBoardTest]/[method:testSetSize()]"/>
+  </testsuite>
+</testrun>

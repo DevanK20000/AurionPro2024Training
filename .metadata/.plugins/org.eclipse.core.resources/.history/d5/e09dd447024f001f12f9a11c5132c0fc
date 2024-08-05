@@ -1,0 +1,20 @@
+package com.aurionpro.creational.factory.model;
+
+public class SavingsAccount implements IAccount {
+	private Integer balance;
+	
+	
+	@Override
+	public void credit(Integer amount) {
+		// TODO Auto-generated method stub
+		this.balance += amount
+		
+	}
+
+	@Override
+	public void debit(Integer amount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

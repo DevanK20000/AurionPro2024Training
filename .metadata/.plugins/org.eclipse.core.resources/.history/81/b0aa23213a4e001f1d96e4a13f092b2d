@@ -1,0 +1,13 @@
+package com.aurionpro.isp.voilation.model;
+
+import com.aurionpro.ocp.model.IFestivalType;
+
+public class Robot implements IFestivalType {
+
+	@Override
+	public Double getInterestRate() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

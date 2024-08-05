@@ -1,0 +1,9 @@
+package com.aurionpro.behavioural.observer.model;
+
+public class Account {
+	private Integer accountNumber;
+	private String name;
+	private Double balance;
+	private List<INotifier> notifiers;
+	
+}

@@ -1,0 +1,9 @@
+package com.aurionpro.structura.model;
+
+public class HotelResecption {
+	public void getIndianMenu() {
+		IHotel indianHotel = new IndianHotel();
+		IMenu menu = indianHotel.getMenu();
+		
+	}
+}

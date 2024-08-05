@@ -1,0 +1,25 @@
+package com.aurionpro.behavioural.observer.test;
+
+import java.util.Scanner;
+
+import com.aurionpro.behavioural.observer.model.Account;
+
+public class AccountTest {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Account number:");
+		Integer accountNumber = scanner.nextInt();
+		scanner.nextLine();
+		System.out.print("Account name:");
+		String name = scanner.nextLine();
+		System.out.print("Account balnce:");
+		Double balance = scanner.nextDouble();
+		
+		Account acccount = new Account(accountNumber, name, balance);
+		
+		System.out.print("Do you want sms notifications? y or n :");
+		
+		
+	}
+
+}

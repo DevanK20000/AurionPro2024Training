@@ -1,0 +1,12 @@
+package com.aurionpro.isp.voilation.model;
+
+
+public class Robot implements IWorker {
+
+	@Override
+	public Double getInterestRate() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

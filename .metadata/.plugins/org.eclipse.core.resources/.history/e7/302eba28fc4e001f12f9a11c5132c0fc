@@ -1,0 +1,14 @@
+package com.aurionpro.creational.singleton.model;
+
+public class Database {
+	private Database database;
+
+	private Database() {
+		super();
+	}
+	
+	public void getStatus() {
+		System.out.println("Database Connected");
+	}
+	
+}

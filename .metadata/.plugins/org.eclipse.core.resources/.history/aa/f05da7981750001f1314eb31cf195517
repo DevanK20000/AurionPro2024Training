@@ -1,0 +1,15 @@
+package com.aurionpro.structural.composit.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CompositBox implements IBox {
+	private final List<IBox> children = new ArrayList<>();
+
+	@Override
+	public Double calculatePrice() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

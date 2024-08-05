@@ -1,0 +1,32 @@
+package com.aurionpro.isp.voilation.model;
+
+import com.aurionpro.isp.model.IWorkable;
+
+public class Robot implements IWorkable {
+
+	@Override
+	public void startWork() {
+		// TODO Auto-generated method stub
+		System.out.println("Robot has started working");
+	}
+
+	@Override
+	public void endWork() {
+		// TODO Auto-generated method stub
+		System.out.println("Robot has stoped working");
+	}
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		System.out.println("Robot is eating");
+	}
+
+	@Override
+	public void drink() {
+		// TODO Auto-generated method stub
+		System.out.println("Robot is drinking");
+
+	}
+
+}

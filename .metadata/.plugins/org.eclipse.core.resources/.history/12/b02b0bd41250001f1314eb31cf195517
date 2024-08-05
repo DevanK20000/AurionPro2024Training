@@ -1,0 +1,7 @@
+package com.aurionpro.structural.adapter.model;
+
+public interface IHat {
+	String getName();
+	Double getPrice();
+	String getDiscription();
+}

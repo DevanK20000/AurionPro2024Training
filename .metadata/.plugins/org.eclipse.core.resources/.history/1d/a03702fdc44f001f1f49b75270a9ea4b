@@ -1,0 +1,15 @@
+package com.aurionpro.structura.test;
+
+import com.aurionpro.structura.model.HotelResecption;
+
+public class HotelTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HotelResecption hotelResecption = new HotelResecption();
+		hotelResecption.getChineseMenu();
+		hotelResecption.getIndianMenu();
+		hotelResecption.getChineseMenu();
+	}
+
+}

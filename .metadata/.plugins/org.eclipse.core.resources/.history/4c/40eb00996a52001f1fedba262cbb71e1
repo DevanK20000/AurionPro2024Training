@@ -1,0 +1,39 @@
+package com.aurionpro.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class IGameBoardTest {
+	IGameBoard gameBoard;
+	
+	@BeforeEach
+	void init(){
+		gameBoard =  new GameBoard();
+	}
+	
+	
+	@Test
+	void testSetSize() {
+		gameBoard.setSize(3);
+		System.out.println(gameBoard.getBoard()[0][0]);
+		
+	}
+
+	@Test
+	void testMakeMove() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetBoard() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testPrintBoard() {
+		fail("Not yet implemented");
+	}
+
+}

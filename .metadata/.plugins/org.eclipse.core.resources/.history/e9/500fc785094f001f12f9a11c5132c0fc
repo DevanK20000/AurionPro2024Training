@@ -1,0 +1,17 @@
+package com.aurionpro.creational.AbstractFactory.model;
+
+public class SavingAccount implements IAccount{
+	private Long accountNumber;
+	private String name;
+	private Double balance;
+	private Double minBalance;
+	public SavingAccount(Long accountNumber, String name, Double balance, Double minBalance) {
+		super();
+		this.accountNumber = accountNumber;
+		this.name = name;
+		this.balance = balance;
+		this.minBalance = minBalance;
+	}
+	
+	
+}

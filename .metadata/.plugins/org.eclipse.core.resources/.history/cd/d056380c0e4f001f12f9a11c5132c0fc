@@ -1,0 +1,13 @@
+package com.aurionpro.creational.AbstractFactory.model;
+
+import java.util.Scanner;
+
+public class CurrentAccountFactory implements IAccountFactory {
+
+	@Override
+	public IAccount makeAccount(Scanner scanner, Long accounNumber) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

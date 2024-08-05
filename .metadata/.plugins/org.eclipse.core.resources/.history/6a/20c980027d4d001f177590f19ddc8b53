@@ -1,0 +1,16 @@
+package com.aurionpro.srp.voilation.model;
+
+public class taxCalculator {
+
+	private Invoice invoice;
+	
+	public taxCalculator(Invoice invoice) {
+		super();
+		this.invoice = invoice;
+	}
+
+	
+	public Double calculateTax() {
+		return amount*tax /100;
+	}
+}

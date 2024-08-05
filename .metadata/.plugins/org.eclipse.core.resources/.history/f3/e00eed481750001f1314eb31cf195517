@@ -1,0 +1,21 @@
+package com.aurionpro.structural.composit.model;
+
+public abstract class Product implements IBox {
+	protected final String title;
+	protected final Double price;
+	
+	public Product(String title, Double price) {
+		super();
+		this.title = title;
+		this.price = price;
+	}
+
+
+
+	@Override
+	public Double calculatePrice() {
+		// TODO Auto-generated method stub
+		return price;
+	}
+
+}

@@ -1,0 +1,48 @@
+package com.aurionpro.srp.voilation.model;
+
+public class Invoice extends taxCalculator {
+	private taxCalcuato data = new taxCalcuato();
+	public Invoice(String id, String description, Double amount, Double tax) {
+		super();
+		this.data.id = id;
+		this.data.description = description;
+		this.data.amount = amount;
+		this.data.tax = tax;
+	}
+	public String getId() {
+		return data.id;
+	}
+	public void setId(String id) {
+		this.data.id = id;
+	}
+	public String getDescription() {
+		return data.description;
+	}
+	public void setDescription(String description) {
+		this.data.description = description;
+	}
+	public Double getAmount() {
+		return data.amount;
+	}
+	public void setAmount(Double amount) {
+		this.data.amount = amount;
+	}
+	public Double getTax() {
+		return data.tax;
+	}
+	public void setTax(Double tax) {
+		this.data.tax = tax;
+	}
+	
+	public Double calculateTax() {
+		return data.amount*data.tax /100;
+	}
+	
+	public void printInvoice() {
+		System.out.println("Id: "+data.id);
+		System.out.println("Description: "+data.description);
+		System.out.println("Amount: "+data.amount);
+		System.out.println("Tax percentage: "+data.tax);
+	}
+}
+

@@ -1,0 +1,15 @@
+package com.aurionpro.behavioural.command.model;
+
+public class TurnOffCommnad implements ICommand {
+	
+	private IDevice device;
+	
+	
+	
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

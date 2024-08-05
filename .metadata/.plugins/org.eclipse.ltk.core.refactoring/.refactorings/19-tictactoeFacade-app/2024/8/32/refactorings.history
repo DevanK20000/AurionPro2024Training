@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.aurionpro.test.TicTacToeTest&apos; to &apos;TicTacToeDemo&apos;&#x0D;&#x0A;- Original project: &apos;19-tictactoeFacade-app&apos;&#x0D;&#x0A;- Original element: &apos;com.aurionpro.test.TicTacToeTest&apos;&#x0D;&#x0A;- Renamed element: &apos;com.aurionpro.test.TicTacToeDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TicTacToeTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.test{TicTacToeTest.java[TicTacToeTest" matchStrategy="1" name="TicTacToeDemo" qualified="false" references="true" similarDeclarations="true" stamp="1722831909662" textual="false" version="1.0"/>
+</session>

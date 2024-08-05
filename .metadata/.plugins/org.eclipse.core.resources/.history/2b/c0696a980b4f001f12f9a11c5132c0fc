@@ -1,0 +1,12 @@
+package com.aurionpro.creational.AbstractFactory.model;
+
+public class SavingAccountFactory implements IAccountFactory{
+
+	@Override
+	public IAccount makeAccount() {
+		// TODO Auto-generated method stub
+		return new SavingAccount(accountNumber, SavingAccount, balance, minBalance);
+		
+	}
+
+}
